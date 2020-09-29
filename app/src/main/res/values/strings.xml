@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Code-Cpp</string>
+    <string name="code_cpp">CODE-CPP</string>
+    <string name="todo">TODO</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="core_topics">Core Topics</string>
+    <string name="advance_c">Advance C++</string>
+    <string name="competitive_coding">Competitive Coding</string>
+    <string name="c_editor">C++ Editor</string>
+    <string name="resources_used">Resources Used</string>
 </resources>
