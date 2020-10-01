@@ -8,4 +8,9 @@
     <string name="competitive_coding">Competitive Coding</string>
     <string name="c_editor">C++ Editor</string>
     <string name="resources_used">Resources Used</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="why_c">Why c++</string>
+    <string name="environment_setup">Environment Setup</string>
 </resources>
