@@ -16,5 +16,10 @@ class gt_started_activity : AppCompatActivity() {
             val intent=Intent(this,whycpp::class.java)
             startActivity(intent)
         }
+
+        envr_btn.setOnClickListener {
+            val intent=Intent(this,envr_setup::class.java)
+            startActivity(intent)
+        }
     }
 }
