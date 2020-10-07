@@ -18,6 +18,12 @@ class main_menu : AppCompatActivity() {
             startActivity(intent)
         }
 
+        ide_btn.setOnClickListener {
+
+            val intent=Intent(this,Editor::class.java)
+            startActivity(intent)
+        }
+
     }
     }
 

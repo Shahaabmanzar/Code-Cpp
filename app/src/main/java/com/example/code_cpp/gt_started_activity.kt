@@ -21,5 +21,9 @@ class gt_started_activity : AppCompatActivity() {
             val intent=Intent(this,envr_setup::class.java)
             startActivity(intent)
         }
+
+
     }
+
+
 }
