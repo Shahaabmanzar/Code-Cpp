@@ -18,5 +18,11 @@ class coretopics_activity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        oops_btn.setOnClickListener {
+
+            val intent=Intent(this,oops_activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

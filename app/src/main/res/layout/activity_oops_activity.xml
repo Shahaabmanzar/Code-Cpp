@@ -4,40 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".basics_activity">
+    tools:context=".oops_activity">
 
     <Button
-        android:id="@+id/webbackbtn"
+        android:id="@+id/weboopsbackbtn"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="@drawable/roundedcorner2"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/prev_topic"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/webnextbtn"
+        app:layout_constraintEnd_toStartOf="@+id/weboopsnextbtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/webnextbtn"
+        android:id="@+id/weboopsnextbtn"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="@drawable/roundedcorner2"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/next_topic"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/webbackbtn" />
+        app:layout_constraintStart_toEndOf="@+id/weboopsbackbtn" />
 
     <ScrollView
-        android:id="@+id/scrollwebview"
+        android:id="@+id/scrolloopswebview"
         android:layout_width="match_parent"
         android:layout_height="665dp"
         android:layout_marginStart="1dp"
@@ -57,7 +57,7 @@
             android:orientation="vertical">
 
             <WebView
-                android:id="@+id/basicwebview"
+                android:id="@+id/oopswebview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
