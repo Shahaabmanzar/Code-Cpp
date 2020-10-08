@@ -17,6 +17,7 @@
         <activity android:name=".Editor" />
         <activity android:name=".envr_setup" />
         <activity android:name=".whycpp" />
+        <activity android:name=".toextend"/>
         <activity android:name=".gt_started_activity" />
         <activity android:name=".main_menu" />
         <activity android:name=".MainActivity">
