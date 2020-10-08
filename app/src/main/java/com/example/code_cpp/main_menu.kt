@@ -24,6 +24,12 @@ class main_menu : AppCompatActivity() {
             startActivity(intent)
         }
 
+        core_topics_btn.setOnClickListener {
+
+            val intent=Intent(this,coretopics_activity::class.java)
+            startActivity(intent)
+        }
+
     }
     }
 
