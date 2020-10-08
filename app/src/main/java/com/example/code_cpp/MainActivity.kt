@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar?.hide()
         Handler().postDelayed(
             {
                 val int= Intent(this,main_menu::class.java)

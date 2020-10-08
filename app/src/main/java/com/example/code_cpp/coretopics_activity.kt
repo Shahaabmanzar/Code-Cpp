@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_coretopics_activity.*
 
-class coretopics_activity : AppCompatActivity() {
+class coretopics_activity : toextend(){
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

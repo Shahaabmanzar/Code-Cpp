@@ -6,7 +6,7 @@ import android.webkit.WebViewClient
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_editor.*
 
-class Editor : AppCompatActivity() {
+class Editor : toextend() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

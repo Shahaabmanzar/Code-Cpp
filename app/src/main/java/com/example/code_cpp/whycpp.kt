@@ -3,7 +3,7 @@ package com.example.code_cpp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class whycpp : AppCompatActivity() {
+class whycpp : toextend() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

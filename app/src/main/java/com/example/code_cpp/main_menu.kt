@@ -4,9 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.view.Menu
 import kotlinx.android.synthetic.main.activity_main_menu.*
 
-class main_menu : AppCompatActivity() {
+class main_menu : toextend() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +18,8 @@ class main_menu : AppCompatActivity() {
             val intent=Intent(this,gt_started_activity::class.java)
             startActivity(intent)
         }
+
+
 
         ide_btn.setOnClickListener {
 
@@ -31,5 +34,10 @@ class main_menu : AppCompatActivity() {
         }
 
     }
-    }
+//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+//        super.onCreateOptionsMenu(menu)
+//        menuInflater.inflate(R.menu.app_bar_menu,menu)
+//        return true
+//    }
+}
 

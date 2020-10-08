@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_envr_setup.*
 import android.os.Handler
 import android.webkit.WebViewClient
 
-class envr_setup : AppCompatActivity() {
+class envr_setup : toextend() {
 
 
 

@@ -20,4 +20,6 @@
     <string name="object_oriented">Object Oriented</string>
     <string name="prev_topic">Prev Topic</string>
     <string name="next_topic">Next Topic</string>
+    <string name="homepage">Homepage</string>
+    <string name="close_app">Close App</string>
 </resources>

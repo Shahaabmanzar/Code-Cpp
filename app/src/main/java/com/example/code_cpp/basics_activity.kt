@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.ScrollView
 import kotlinx.android.synthetic.main.activity_basics_activity.*
 
-class basics_activity : AppCompatActivity() {
+class basics_activity : toextend() {
 
     val urls= arrayListOf<String>("https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm","https://www.tutorialspoint.com/cplusplus/cpp_comments.htm","https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm","https://www.tutorialspoint.com/cplusplus/cpp_variable_types.htm","https://www.tutorialspoint.com/cplusplus/cpp_constants_literals.htm","https://www.tutorialspoint.com/cplusplus/cpp_operators.htm","https://www.tutorialspoint.com/cplusplus/cpp_loop_types.htm","https://www.tutorialspoint.com/cplusplus/cpp_decision_making.htm","https://www.tutorialspoint.com/cplusplus/cpp_functions.htm","https://www.tutorialspoint.com/cplusplus/cpp_numbers.htm","https://www.tutorialspoint.com/cplusplus/cpp_arrays.htm","https://www.tutorialspoint.com/cplusplus/cpp_strings.htm","https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm")
     var i:Int=0

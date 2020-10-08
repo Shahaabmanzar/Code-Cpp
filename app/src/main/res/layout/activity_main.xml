@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#61B7CD"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
     <ImageView
         android:id="@+id/cpp_logo"
