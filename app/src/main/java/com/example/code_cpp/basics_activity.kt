@@ -2,6 +2,7 @@ package com.example.code_cpp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ScrollView
 import kotlinx.android.synthetic.main.activity_basics_activity.*
 
 class basics_activity : AppCompatActivity() {
@@ -19,6 +20,7 @@ class basics_activity : AppCompatActivity() {
             {
                 i=i+1
                 basicwebview.loadUrl(urls[i])
+                scrollwebview.fullScroll(ScrollView.FOCUS_UP)
 
             }
         }
@@ -29,6 +31,8 @@ class basics_activity : AppCompatActivity() {
             {
                 i=i-1
                 basicwebview.loadUrl(urls[i])
+                scrollwebview.fullScroll(ScrollView.FOCUS_UP)
+               // scrollwebview.smoothScrollTo(0,0)
             }
         }
     }

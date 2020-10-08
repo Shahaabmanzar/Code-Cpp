@@ -6,15 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Editor">
 
+
     <ScrollView
-        android:layout_width="413dp"
+        android:layout_width="match_parent"
         android:layout_height="499dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp"
+        android:fillViewport="true"
         app:layout_constraintBottom_toTopOf="@+id/run_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -31,8 +33,10 @@
                 android:id="@+id/ide_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
 
+                android:layout_marginTop="10dp"
                 android:autofillHints=""
                 android:ems="10"
                 android:gravity="start|top"
@@ -40,10 +44,6 @@
                 android:text="@string/write_your_code_here" />
         </LinearLayout>
     </ScrollView>
-
-
-
-
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/run_btn"
