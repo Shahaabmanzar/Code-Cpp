@@ -18,4 +18,6 @@
     <string name="write_your_code_here">//Write your code here</string>
     <string name="basics">Basics</string>
     <string name="object_oriented">Object Oriented</string>
+    <string name="prev_topic">Prev Topic</string>
+    <string name="next_topic">Next Topic</string>
 </resources>
