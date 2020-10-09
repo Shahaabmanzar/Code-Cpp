@@ -33,6 +33,12 @@ class main_menu : toextend() {
             startActivity(intent)
         }
 
+        advance_topics_btn.setOnClickListener {
+
+            val intent=Intent(this,advancecpp_activity::class.java)
+            startActivity(intent)
+        }
+
     }
 //    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
 //        super.onCreateOptionsMenu(menu)

@@ -11,13 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".oops_activity"></activity>
+        <activity android:name=".advancecpp_activity"></activity>
+        <activity android:name=".oops_activity" />
         <activity android:name=".basics_activity" />
         <activity android:name=".coretopics_activity" />
         <activity android:name=".Editor" />
         <activity android:name=".envr_setup" />
         <activity android:name=".whycpp" />
-        <activity android:name=".toextend"/>
+        <activity android:name=".toextend" />
         <activity android:name=".gt_started_activity" />
         <activity android:name=".main_menu" />
         <activity android:name=".MainActivity">

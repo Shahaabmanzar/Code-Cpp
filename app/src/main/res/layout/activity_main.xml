@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#61B7CD"
-    tools:context=".MainActivity"
-    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+    android:background="#B2EBF2"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/cpp_logo"
