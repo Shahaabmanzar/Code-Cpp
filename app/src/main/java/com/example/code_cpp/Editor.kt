@@ -17,7 +17,7 @@ class Editor : toextend() {
         var text=sharedevent.getString("idestring","//write code here").toString()
         ide_text.setText(text)
         run_btn.setOnClickListener{
-            Toast.makeText(this,"You click float btn",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Coming soon!! File saved for now ",Toast.LENGTH_SHORT).show()
 
             val editor=sharedevent.edit()
             editor.putString("idestring",ide_text.text.toString())

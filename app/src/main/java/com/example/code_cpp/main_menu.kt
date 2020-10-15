@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.Menu
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main_menu.*
 
 class main_menu : toextend() {
@@ -37,6 +38,16 @@ class main_menu : toextend() {
 
             val intent=Intent(this,advancecpp_activity::class.java)
             startActivity(intent)
+        }
+
+        comp_coding_btn.setOnClickListener {
+
+            Toast.makeText(this,"Coming soon",Toast.LENGTH_SHORT).show()
+        }
+
+        resources_used_btn.setOnClickListener {
+
+            Toast.makeText(this,"Coming soon",Toast.LENGTH_SHORT).show()
         }
 
     }

@@ -22,6 +22,13 @@ open class toextend:AppCompatActivity() {
             startActivity(intent)
 
         }
+        else if(item.itemId==R.id.AboutApp)
+        {
+
+            val int=Intent(this,About::class.java)
+            startActivity(int)
+
+        }
         else
         {
             this.finishAffinity()

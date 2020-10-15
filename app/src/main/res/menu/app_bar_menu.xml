@@ -7,9 +7,18 @@
         android:icon="@drawable/cpp"
         android:title="@string/homepage"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/AboutApp"
+        android:title="@string/about"
+        app:showAsAction="never"/>
+
+
     <item
         android:id="@+id/toclose"
         android:title="@string/close_app"
         app:showAsAction="never" />
+
+
 
 </menu>
