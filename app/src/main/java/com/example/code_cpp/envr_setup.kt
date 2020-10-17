@@ -19,7 +19,7 @@ class envr_setup : toextend() {
 
         web_envr.webViewClient= WebViewClient()
 
-        web_envr.loadUrl("https://www.tutorialspoint.com/cplusplus/cpp_environment_setup.htm")
+        web_envr.loadUrl(urlevnrsetup)
 
 
         Handler().postDelayed(
