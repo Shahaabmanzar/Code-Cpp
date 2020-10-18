@@ -1,7 +1,6 @@
-package com.example.code_cpp
+package com.example.Code_Cpp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_coretopics_activity.*
 

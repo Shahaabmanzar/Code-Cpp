@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.code_cpp">
+    package="com.example.Code_Cpp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,18 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".About"></activity>
-        <activity android:name=".advancecpp_activity" />
-        <activity android:name=".oops_activity" />
-        <activity android:name=".basics_activity" />
-        <activity android:name=".coretopics_activity" />
-        <activity android:name=".Editor" />
-        <activity android:name=".envr_setup" />
-        <activity android:name=".whycpp" />
-        <activity android:name=".toextend" />
-        <activity android:name=".gt_started_activity" />
-        <activity android:name=".main_menu" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.Code_Cpp.About"></activity>
+        <activity android:name="com.example.Code_Cpp.advancecpp_activity" />
+        <activity android:name="com.example.Code_Cpp.oops_activity" />
+        <activity android:name="com.example.Code_Cpp.basics_activity" />
+        <activity android:name="com.example.Code_Cpp.coretopics_activity" />
+        <activity android:name="com.example.Code_Cpp.Editor" />
+        <activity android:name="com.example.Code_Cpp.envr_setup" />
+        <activity android:name="com.example.Code_Cpp.whycpp" />
+        <activity android:name="com.example.Code_Cpp.toextend" />
+        <activity android:name="com.example.Code_Cpp.gt_started_activity" />
+        <activity android:name="com.example.Code_Cpp.main_menu" />
+        <activity android:name="com.example.Code_Cpp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

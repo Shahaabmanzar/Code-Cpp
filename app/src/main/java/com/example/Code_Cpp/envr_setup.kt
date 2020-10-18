@@ -1,7 +1,5 @@
-package com.example.code_cpp
+package com.example.Code_Cpp
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_envr_setup.*

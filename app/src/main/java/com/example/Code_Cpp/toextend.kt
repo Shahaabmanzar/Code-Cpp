@@ -1,4 +1,4 @@
-package com.example.code_cpp
+package com.example.Code_Cpp
 
 import android.content.Intent
 import android.view.Menu

@@ -1,6 +1,5 @@
-package com.example.code_cpp
+package com.example.Code_Cpp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class whycpp : toextend() {
