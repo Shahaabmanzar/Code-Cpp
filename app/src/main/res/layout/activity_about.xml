@@ -90,7 +90,7 @@
                 android:fontFamily="@font/open_sans_semibold"
                 android:gravity="start|top"
                 android:importantForAutofill="no"
-                android:text="@string/hello_my_name_is_mohammad_atif_pursuing_my_btech_in_i_t_from_g_l_bajaj_noida_i_love_to_create_android_applications_and_stuffs_this_app_is_only_for_test_purpose"
+                android:text="@string/aboutstring"
                 android:textColor="#2B2A2A"
                 android:textSize="18sp" />
         </LinearLayout>
