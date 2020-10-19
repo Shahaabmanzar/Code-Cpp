@@ -14,6 +14,7 @@ class About : toextend(){
         setContentView(R.layout.activity_about)
 
 
+
         linkedinlogo.setOnClickListener{
 
             val intent=Intent(Intent.ACTION_VIEW)

@@ -36,7 +36,7 @@ fun initialdbwrite()
         ref.document("Advanceurl").set(forurl("advancecppurl", urlsAdvancecpp))
         ref.document("Basicsurl").set(forurl("basicsurls", urlsbasics))
         ref.document("Oopsurl").set(forurl("oopsurls", urlsoops))
-
+        ref.document("AboutActivity").set(aboutsection(aboutme))
         ref.document("dbcondition").set(status(false))
     }
     catch (e:Exception)

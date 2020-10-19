@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         //getdbchanged()
         //Toast.makeText(this,data,Toast.LENGTH_SHORT).show()
+        aboutme=getString(R.string.aboutstring)
 
         if(isdbchanged==true)
         {
