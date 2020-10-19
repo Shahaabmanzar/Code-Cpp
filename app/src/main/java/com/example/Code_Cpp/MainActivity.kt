@@ -13,12 +13,20 @@ import kotlin.system.exitProcess
 class MainActivity : AppCompatActivity() {
 
     var flag=0
-    val db= Firebase.firestore
+//    val db= Firebase.firestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //getdbchanged()
+        //Toast.makeText(this,data,Toast.LENGTH_SHORT).show()
+
+        if(isdbchanged==true)
+        {
+            initialdbwrite()
+        }
+/*
         try {
             db.collection("Onlineusers").add(forurl("advance", urlsAdvancecpp))
         }
@@ -26,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         {
             Toast.makeText(this,e.message, Toast.LENGTH_SHORT).show()
         }
-
+*/
 
         supportActionBar?.hide()
         Handler().postDelayed(
