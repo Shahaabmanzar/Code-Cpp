@@ -47,6 +47,11 @@ class main_menu : toextend() {
             Toast.makeText(this,"Coming soon",Toast.LENGTH_SHORT).show()
         }
 
+        helpbtn.setOnClickListener {
+            val intent=Intent(this,helpactivity::class.java)
+            startActivity(intent)
+        }
+
     }
 //    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
 //        super.onCreateOptionsMenu(menu)

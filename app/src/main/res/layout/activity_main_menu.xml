@@ -14,24 +14,25 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/getting_started"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/core_topics_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/core_topics_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/core_topics"
@@ -40,61 +41,59 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/advance_topics_btn"
         app:layout_constraintEnd_toEndOf="@+id/getting_started_btn"
-        app:layout_constraintStart_toStartOf="@+id/getting_started_btn"
-        app:layout_constraintTop_toBottomOf="@+id/getting_started_btn" />
+        app:layout_constraintStart_toStartOf="@+id/getting_started_btn" />
 
     <Button
         android:id="@+id/advance_topics_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/advance_c"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/comp_coding_btn"
         app:layout_constraintEnd_toEndOf="@+id/core_topics_btn"
-        app:layout_constraintStart_toStartOf="@+id/core_topics_btn"
-        app:layout_constraintTop_toBottomOf="@+id/core_topics_btn" />
+        app:layout_constraintStart_toStartOf="@+id/core_topics_btn" />
 
     <Button
         android:id="@+id/comp_coding_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/competitive_coding"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ide_btn"
         app:layout_constraintEnd_toEndOf="@+id/advance_topics_btn"
-        app:layout_constraintStart_toStartOf="@+id/advance_topics_btn"
-        app:layout_constraintTop_toBottomOf="@+id/advance_topics_btn" />
+        app:layout_constraintStart_toStartOf="@+id/advance_topics_btn" />
 
     <Button
         android:id="@+id/ide_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/c_editor"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/resources_used_btn"
         app:layout_constraintEnd_toEndOf="@+id/comp_coding_btn"
-        app:layout_constraintStart_toStartOf="@+id/comp_coding_btn"
-        app:layout_constraintTop_toBottomOf="@+id/comp_coding_btn" />
+        app:layout_constraintStart_toStartOf="@+id/comp_coding_btn" />
 
     <Button
         android:id="@+id/resources_used_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="100dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/resources_used"
@@ -103,8 +102,24 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/ide_btn"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/ide_btn"
-        app:layout_constraintTop_toBottomOf="@+id/ide_btn"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/helpbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#ffc77d"
+        app:fabCustomSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resources_used_btn"
+        app:layout_constraintVertical_bias="0.579"
+        app:maxImageSize="40dp"
+        app:srcCompat="@drawable/ic_help" />
 </androidx.constraintlayout.widget.ConstraintLayout>
