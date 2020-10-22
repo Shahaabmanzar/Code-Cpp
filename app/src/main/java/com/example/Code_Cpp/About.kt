@@ -13,6 +13,8 @@ class About : toextend(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
+        aboutme_txt.setText(aboutme)
+
 
 
         linkedinlogo.setOnClickListener{

@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //getdbchanged()
+        getdbchanged()
         //Toast.makeText(this,data,Toast.LENGTH_SHORT).show()
         aboutme=getString(R.string.aboutstring)
 

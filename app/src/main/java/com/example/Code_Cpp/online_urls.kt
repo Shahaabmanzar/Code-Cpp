@@ -6,4 +6,4 @@ var urlevnrsetup="https://www.tutorialspoint.com/cplusplus/cpp_environment_setup
 var urlsoops= mutableListOf<String>("https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm","https://www.tutorialspoint.com/cplusplus/cpp_inheritance.htm","https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm","https://www.tutorialspoint.com/cplusplus/cpp_polymorphism.htm","https://www.tutorialspoint.com/cplusplus/cpp_data_abstraction.htm","https://www.tutorialspoint.com/cplusplus/cpp_data_encapsulation.htm","https://www.tutorialspoint.com/cplusplus/cpp_interfaces.htm")
 
 
-var aboutme:String=""
+var aboutme:String?=""

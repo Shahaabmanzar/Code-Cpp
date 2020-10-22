@@ -5,4 +5,4 @@ data class forurl(val acname:String=" ",var theurls:MutableList<String> = def)
 
 data class status(var isdbchanged:Boolean=true)
 
-data class aboutsection(var aboutme:String=" ")
+data class aboutsection(var aboutme:String?=" ")
