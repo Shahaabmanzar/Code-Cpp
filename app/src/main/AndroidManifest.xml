@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".helpactivity"></activity>
+        <activity android:name=".helpactivity"
+            android:windowSoftInputMode="adjustResize"/>
         <activity android:name=".About" />
         <activity android:name=".advancecpp_activity" />
         <activity android:name=".oops_activity" />

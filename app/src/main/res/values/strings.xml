@@ -28,4 +28,6 @@
     <string name="todosecond">TODO</string>
     <string name="todothird">TODO</string>
     <string name="todofourth">TODO</string>
+    <string name="askquestions">Ask your questions</string>
+    <string name="write_here">Write here</string>
 </resources>
