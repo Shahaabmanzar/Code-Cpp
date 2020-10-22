@@ -1,6 +1,7 @@
 package com.example.Code_Cpp
 
-data class forurl(val acname:String,var theurls:MutableList<String>)
+var def= mutableListOf<String>()
+data class forurl(val acname:String=" ",var theurls:MutableList<String> = def)
 
 data class status(var isdbchanged:Boolean=true)
 

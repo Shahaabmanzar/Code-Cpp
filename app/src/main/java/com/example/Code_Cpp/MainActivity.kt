@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
         //Toast.makeText(this,data,Toast.LENGTH_SHORT).show()
         aboutme=getString(R.string.aboutstring)
 
-        if(isdbchanged==true)
-        {
-            initialdbwrite()
-        }
+//        if(isdbchanged==true)
+//        {
+//            initialdbwrite()
+//        }
 /*
         try {
             db.collection("Onlineusers").add(forurl("advance", urlsAdvancecpp))
