@@ -71,10 +71,18 @@ fun getnewurls()
                 }
                 "Advanceurl"->{
                     val n=document.toObject<forurl>()
-                    urlsAdvancecpp= n?.theurls!!
+                    urlsAdvancecpp=n?.theurls!!
+                    //urlsAdvancecpp= n?.theurls!!
                 }
+                "Oopsurl"->{
+                    val n=document.toObject<forurl>()
+                    urlsoops=n?.theurls!!
+                    //urlsoops.addAll(n?.theurls!!)
+                }
+
             }
         }
     }
-    initialdbwrite()
+    ref.document("dbcondition").set(status(false))
+//    initialdbwrite()
 }
