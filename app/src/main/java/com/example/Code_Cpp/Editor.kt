@@ -23,12 +23,12 @@ class Editor : toextend() {
         ide_text.setText(text)
 
 
-        val ref=db.collection("Onlineusers").document("Oopsurl")
-        ref.get().addOnSuccessListener {
-                val newurls = it.toObject<forurl>()
-                val urls = newurls?.theurls
-                Toast.makeText(this, urls?.get(0),Toast.LENGTH_SHORT).show()
-        }
+//        val ref=db.collection("Onlineusers").document("Oopsurl")
+//        ref.get().addOnSuccessListener {
+//                val newurls = it.toObject<forurl>()
+//                val urls = newurls?.theurls
+//                Toast.makeText(this, urls?.get(0),Toast.LENGTH_SHORT).show()
+//        }
 
 
         run_btn.setOnClickListener{
