@@ -22,28 +22,29 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="133dp"
+        android:layout_height="135dp"
         android:layout_marginTop="20dp"
+        android:contentDescription="@string/todothird"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/profilepic"
-        android:contentDescription="@string/todothird" />
+        app:srcCompat="@drawable/profilepic" />
 
     <ImageView
         android:id="@+id/linkedinlogo"
         android:layout_width="64dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
+        android:contentDescription="@string/todosecond"
         app:layout_constraintBottom_toTopOf="@id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/gitlogo"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/ic_linkedin"
-        android:contentDescription="@string/todosecond" />
+        app:layout_constraintVertical_bias="0.406"
+        app:srcCompat="@drawable/ic_linkedin" />
 
     <ImageView
         android:id="@+id/gitlogo"
@@ -62,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="351dp" />
+        app:layout_constraintGuide_begin="341dp" />
 
     <ScrollView
         android:id="@+id/scrollView2"
