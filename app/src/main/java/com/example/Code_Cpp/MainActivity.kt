@@ -4,9 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.view.View
+import android.view.WindowManager
+import android.view.animation.AnimationUtils
 import android.widget.Toast
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.Exception
 import kotlin.system.exitProcess
 
@@ -16,8 +20,16 @@ class MainActivity : AppCompatActivity() {
 //    val db= Firebase.firestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
+
+        val topanim=AnimationUtils.loadAnimation(this,R.anim.fromup)
+        val bottomanim=AnimationUtils.loadAnimation(this,R.anim.fromdown)
+
+        cpp_logo.startAnimation(topanim)
+        Code_cpp_text.startAnimation(bottomanim)
 
         getdbchanged()
         //Toast.makeText(this,data,Toast.LENGTH_SHORT).show()
@@ -44,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                 flag=flag+1
                 startActivity(int)
 
-            },2000
+            },2500
         )
     }
 

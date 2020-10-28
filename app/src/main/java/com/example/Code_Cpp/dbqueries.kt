@@ -83,6 +83,6 @@ fun getnewurls()
             }
         }
     }
-    ref.document("dbcondition").set(status(false))
+    //ref.document("dbcondition").set(status(false))
 //    initialdbwrite()
 }

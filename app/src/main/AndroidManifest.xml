@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".helpactivity"
-            android:windowSoftInputMode="adjustResize"/>
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
         <activity android:name=".About" />
         <activity android:name=".advancecpp_activity" />
         <activity android:name=".oops_activity" />
@@ -23,7 +24,8 @@
         <activity android:name=".whycpp" />
         <activity android:name=".toextend" />
         <activity android:name=".gt_started_activity" />
-        <activity android:name=".main_menu" />
+        <activity android:name=".main_menu"
+            android:screenOrientation="portrait"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
