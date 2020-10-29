@@ -11,9 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".helpactivity"
-            android:windowSoftInputMode="adjustResize"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".loginactivity"></activity>
+        <activity
+            android:name=".helpactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name=".About" />
         <activity android:name=".advancecpp_activity" />
         <activity android:name=".oops_activity" />
@@ -24,8 +26,9 @@
         <activity android:name=".whycpp" />
         <activity android:name=".toextend" />
         <activity android:name=".gt_started_activity" />
-        <activity android:name=".main_menu"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".main_menu"
+            android:screenOrientation="portrait" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -30,4 +30,9 @@
     <string name="todofourth">TODO</string>
     <string name="askquestions">Ask your questions</string>
     <string name="write_here">Write here</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

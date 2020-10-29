@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
         Handler().postDelayed(
             {
-                val int= Intent(this,main_menu::class.java)
+                val int= Intent(this,loginactivity::class.java)
                 flag=flag+1
                 startActivity(int)
 
