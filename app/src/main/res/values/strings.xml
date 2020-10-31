@@ -35,4 +35,22 @@
     <string name="password">Password</string>
     <string name="dont_have_an_account">Dont have an account?</string>
     <string name="sign_up">Sign Up</string>
+    <string name="namesign">Name</string>
+    <string name="current_position">Current Position</string>
+    <string name="emailsup">Email</string>
+    <string name="passwordsup">Password</string>
+    <string name="sign_upbtn">Sign Up</string>
+    <string-array name="currentpos">
+        <item>Select Your Designation</item>
+        <item>Class 6</item>
+        <item>Class 7</item>
+        <item>Class 8</item>
+        <item>Class 9</item>
+        <item>Class 10</item>
+        <item>Class 11</item>
+        <item>Class 12</item>
+        <item>B.tech 1,2 year</item>
+        <item>B.tech 3,4 year</item>
+        <item>other</item>
+    </string-array>
 </resources>
