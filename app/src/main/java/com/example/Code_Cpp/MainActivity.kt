@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                 val int= Intent(this,loginactivity::class.java)
                 flag=flag+1
                 startActivity(int)
-
+                finish()
             },2500
         )
     }

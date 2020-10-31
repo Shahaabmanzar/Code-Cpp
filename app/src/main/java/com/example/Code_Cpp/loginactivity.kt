@@ -48,6 +48,7 @@ class loginactivity : AppCompatActivity() {
             val user=Firebase.auth.currentUser
             Toast.makeText(this,"Welcome ${user?.displayName}",Toast.LENGTH_LONG).show()
             startActivity(intent)
+            finish()
         } else {
             Toast.makeText(this, "Invalid Login", Toast.LENGTH_SHORT).show()
         }
