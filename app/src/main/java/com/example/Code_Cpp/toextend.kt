@@ -4,12 +4,15 @@ import android.content.Intent
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 open class toextend:AppCompatActivity() {
-
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         super.onCreateOptionsMenu(menu)
         menuInflater.inflate(R.menu.app_bar_menu,menu)
+
         return true
     }
 
@@ -28,6 +31,12 @@ open class toextend:AppCompatActivity() {
             val int=Intent(this,About::class.java)
             startActivity(int)
 
+        }
+        else if(item.itemId==R.id.logoutbtn)
+        {
+            FirebaseAuth.getInstance().signOut()
+            startActivity(Intent(this,loginactivity::class.java))
+            finish()
         }
         else
         {

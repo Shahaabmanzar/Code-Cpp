@@ -40,6 +40,7 @@
     <string name="emailsup">Email</string>
     <string name="passwordsup">Password</string>
     <string name="sign_upbtn">Sign Up</string>
+    <string name="log_out">Log Out</string>
     <string-array name="currentpos">
         <item>Select Your Designation</item>
         <item>Class 6</item>
