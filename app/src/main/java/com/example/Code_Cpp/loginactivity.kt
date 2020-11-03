@@ -27,6 +27,31 @@ class loginactivity : AppCompatActivity() {
         }
     }
 
+    override fun onStart() {
+        super.onStart()
+        val user=auth?.currentUser
+        if(user!=null)
+        {
+            user?.let {
+                // Name, email address, and profile photo Url
+                val name = user.displayName
+                val email = user.email
+                val photoUrl = user.photoUrl
+
+                // Check if user's email is verified
+                val emailVerified = user.isEmailVerified
+
+                // The user's ID, unique to the Firebase project. Do NOT use this value to
+                // authenticate with your backend server, if you have one. Use
+                // FirebaseUser.getToken() instead.
+                val uid = user.uid
+                Toast.makeText(this,"Welcome ${name.toString()}",Toast.LENGTH_SHORT).show()
+            }
+            startActivity(Intent(this,main_menu::class.java))
+            finish()
+        }
+    }
+
     fun login()
     {
 
@@ -46,7 +71,8 @@ class loginactivity : AppCompatActivity() {
         if (task.isSuccessful) {
             val intent = Intent(this, main_menu::class.java)
             val user=Firebase.auth.currentUser
-            Toast.makeText(this,"Welcome ${user?.displayName}",Toast.LENGTH_LONG).show()
+
+//            Toast.makeText(this,"Welcome ${user?.displayName}",Toast.LENGTH_LONG).show()
             startActivity(intent)
             finish()
         } else {

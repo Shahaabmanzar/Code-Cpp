@@ -7,3 +7,6 @@ var urlsoops= mutableListOf<String>("https://www.tutorialspoint.com/cplusplus/cp
 
 
 var aboutme:String?=""
+
+
+var flagforwelcome=0

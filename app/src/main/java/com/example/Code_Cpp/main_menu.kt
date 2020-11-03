@@ -3,6 +3,8 @@ package com.example.Code_Cpp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_main_menu.*
 
 class main_menu : toextend() {
@@ -10,8 +12,13 @@ class main_menu : toextend() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_menu)
+        flagforwelcome= flagforwelcome+1
 
-
+//        if(flagforwelcome==1)
+//        {
+//            val user=Firebase.auth.currentUser
+//            Toast.makeText(this,"Welcome ${user?.displayName.toString()}",Toast.LENGTH_SHORT).show()
+//        }
         getting_started_btn.setOnClickListener {
             val intent=Intent(this,gt_started_activity::class.java)
             startActivity(intent)
@@ -53,10 +60,7 @@ class main_menu : toextend() {
         }
 
     }
-//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-//        super.onCreateOptionsMenu(menu)
-//        menuInflater.inflate(R.menu.app_bar_menu,menu)
-//        return true
-//    }
+
+
 }
 

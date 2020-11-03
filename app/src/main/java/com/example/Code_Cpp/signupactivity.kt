@@ -10,6 +10,7 @@ import android.widget.AdapterView.OnItemSelectedListener
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.auth.ktx.userProfileChangeRequest
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_signupactivity.*
 
@@ -81,6 +82,15 @@ class signupactivity : AppCompatActivity() {
         auth.createUserWithEmailAndPassword(emailsignuptxt.text.toString(),passsignuptext.text.toString())
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
+
+                    val user = auth.currentUser
+
+                    val profileUpdates = userProfileChangeRequest {
+                        displayName =sup_nametxt.text.toString()
+                    }
+                    if (user != null) {
+                        user.updateProfile(profileUpdates)
+                    }
                    Toast.makeText(this,"Signed Up succesfully",Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this,loginactivity::class.java))
 
