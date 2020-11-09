@@ -73,6 +73,8 @@ class loginactivity : AppCompatActivity() {
             val user=Firebase.auth.currentUser
 
 //            Toast.makeText(this,"Welcome ${user?.displayName}",Toast.LENGTH_LONG).show()
+            val name = user?.displayName
+            Toast.makeText(this,"Welcome ${name.toString()}",Toast.LENGTH_SHORT).show()
             startActivity(intent)
             finish()
         } else {

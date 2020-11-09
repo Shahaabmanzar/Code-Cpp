@@ -40,7 +40,7 @@
         android:autofillHints=""
         android:ems="10"
         android:gravity="center"
-        android:hint="@string/enter_email"
+        android:hint="@string/emailsup"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/passtext"
         app:layout_constraintEnd_toEndOf="parent"
