@@ -12,8 +12,6 @@
         android:id="@+id/getting_started_btn"
         android:layout_width="233dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/poppins_bold"
@@ -23,7 +21,6 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/core_topics_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
